@@ -20,6 +20,10 @@ public class App extends Application {
         // Scene 생성
         Scene scene = new Scene(root, 800, 600);
 
+        // 전역 CSS 스타일시트 적용
+        String css = getClass().getResource("/css/styles.css").toExternalForm();
+        scene.getStylesheets().add(css);
+
         // Stage 설정
         primaryStage.setTitle("BitBot");
         primaryStage.setScene(scene);

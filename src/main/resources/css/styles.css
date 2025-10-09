@@ -1,0 +1,68 @@
+/* Geist Mono 폰트 정의 */
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('../fonts/GeistMono-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('../fonts/GeistMono-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('../fonts/GeistMono-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('../fonts/GeistMono-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* 전역 폰트 적용 */
+.root {
+    -fx-font-family: 'Geist Mono', monospace;
+}
+
+/* 모든 텍스트 요소에 폰트 적용 */
+.label,
+.button,
+.text,
+.text-field,
+.text-area,
+.choice-box,
+.combo-box,
+.list-view,
+.table-view,
+.tree-view,
+.menu,
+.menu-item,
+.menu-bar {
+    -fx-font-family: 'Geist Mono', monospace;
+}
+
+/* 버튼 스타일 개선 */
+.button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+.button:pressed {
+    -fx-background-color: #1e40af;
+}
+
