@@ -59,6 +59,11 @@ bin/
 ## Visual Studio Code
 .vscode/
 
+# Node.js
+node_modules/
+package-lock.json
+npm-debug.log*
+
 # macOS
 .DS_Store
 .AppleDouble
@@ -83,3 +88,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# Font
+*.ttf
+*.otf

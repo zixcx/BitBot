@@ -1,35 +1,48 @@
+/* Geist Sans 폰트 정의 */
+@font-face {
+  font-family: "Geist";
+  src: url("../fonts/Geist-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Geist Bold";
+  src: url("../fonts/Geist-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Geist Medium";
+  src: url("../fonts/Geist-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Geist Light";
+  src: url("../fonts/Geist-Light.ttf");
+}
+
 /* Geist Mono 폰트 정의 */
 @font-face {
-    font-family: 'Geist Mono';
-    src: url('../fonts/GeistMono-Regular.ttf');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Geist Mono";
+  src: url("../fonts/GeistMono-Regular.ttf");
 }
 
 @font-face {
-    font-family: 'Geist Mono';
-    src: url('../fonts/GeistMono-Bold.ttf');
-    font-weight: bold;
-    font-style: normal;
+  font-family: "Geist Mono Bold";
+  src: url("../fonts/GeistMono-Bold.ttf");
 }
 
 @font-face {
-    font-family: 'Geist Mono';
-    src: url('../fonts/GeistMono-Medium.ttf');
-    font-weight: 500;
-    font-style: normal;
+  font-family: "Geist Mono Medium";
+  src: url("../fonts/GeistMono-Medium.ttf");
 }
 
 @font-face {
-    font-family: 'Geist Mono';
-    src: url('../fonts/GeistMono-Light.ttf');
-    font-weight: 300;
-    font-style: normal;
+  font-family: "Geist Mono Light";
+  src: url("../fonts/GeistMono-Light.ttf");
 }
 
-/* 전역 폰트 적용 */
+/* 전역 폰트 적용 - 기본은 Geist Mono */
 .root {
-    -fx-font-family: 'Geist Mono', monospace;
+  -fx-font-family: "Geist Mono", monospace;
 }
 
 /* 모든 텍스트 요소에 폰트 적용 */
@@ -46,23 +59,39 @@
 .menu,
 .menu-item,
 .menu-bar {
-    -fx-font-family: 'Geist Mono', monospace;
+  -fx-font-family: "Geist Mono", monospace;
+}
+
+/* Geist Sans를 사용하려면 아래 클래스 추가 */
+.geist-sans {
+  -fx-font-family: "Geist", sans-serif;
+}
+
+.geist-sans-bold {
+  -fx-font-family: "Geist Bold", sans-serif;
+}
+
+.geist-sans-medium {
+  -fx-font-family: "Geist Medium", sans-serif;
+}
+
+.geist-sans-light {
+  -fx-font-family: "Geist Light", sans-serif;
 }
 
 /* 버튼 스타일 개선 */
 .button {
-    -fx-background-color: #2563eb;
-    -fx-text-fill: white;
-    -fx-background-radius: 8;
-    -fx-cursor: hand;
-    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0, 0, 2);
+  -fx-background-color: #2563eb;
+  -fx-text-fill: white;
+  -fx-background-radius: 8;
+  -fx-cursor: hand;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0, 0, 2);
 }
 
 .button:hover {
-    -fx-background-color: #1d4ed8;
+  -fx-background-color: #1d4ed8;
 }
 
 .button:pressed {
-    -fx-background-color: #1e40af;
+  -fx-background-color: #1e40af;
 }
-

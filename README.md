@@ -8,6 +8,7 @@ JavaFX GUI 애플리케이션 프로젝트
 -   **JavaFX Version**: 21.0.1
 -   **Build Tool**: Maven
 -   **IDE**: IntelliJ IDEA / Eclipse / VS Code
+-   **Font**: Geist Sans, Geist Mono (전역 적용)
 
 ## 프로젝트 구조
 
@@ -22,13 +23,78 @@ BitBot/
 │   │   │           └── controller/
 │   │   │               └── MainController.java     # 메인 화면 컨트롤러
 │   │   └── resources/
+│   │       ├── css/
+│   │       │   └── styles.css                      # 전역 스타일시트 (Geist Mono 폰트 설정)
+│   │       ├── fonts/
+│   │       │   ├── Geist-Regular.ttf               # Geist Sans 일반 폰트
+│   │       │   ├── Geist-Bold.ttf                  # Geist Sans 볼드 폰트
+│   │       │   ├── Geist-Medium.ttf                # Geist Sans 미디엄 폰트
+│   │       │   ├── Geist-Light.ttf                 # Geist Sans 라이트 폰트
+│   │       │   ├── GeistMono-Regular.ttf           # Geist Mono 일반 폰트
+│   │       │   ├── GeistMono-Bold.ttf              # Geist Mono 볼드 폰트
+│   │       │   ├── GeistMono-Medium.ttf            # Geist Mono 미디엄 폰트
+│   │       │   └── GeistMono-Light.ttf             # Geist Mono 라이트 폰트
 │   │       └── fxml/
 │   │           └── main.fxml                       # 메인 화면 레이아웃
 │   └── test/
 │       └── java/
 ├── pom.xml                                         # Maven 설정 파일
+├── FONT_SETUP.md                                   # 폰트 설치 가이드
+├── FONT_USAGE.md                                   # 폰트 사용 가이드
+├── install-fonts.sh                                # 폰트 자동 설치 스크립트 (macOS/Linux)
+├── install-fonts.ps1                               # 폰트 자동 설치 스크립트 (Windows)
 └── README.md
 ```
+
+## 폰트 설치 (최초 1회)
+
+프로젝트를 처음 받았다면 Geist Mono 폰트를 설치해야 합니다.
+
+### macOS / Linux
+
+```bash
+# npm으로 geist 폰트 설치
+npm install geist
+
+# 폰트 파일 복사 (Geist Sans + Geist Mono)
+cp node_modules/geist/dist/fonts/geist-sans/Geist-*.ttf src/main/resources/fonts/
+cp node_modules/geist/dist/fonts/geist-mono/GeistMono-*.ttf src/main/resources/fonts/
+
+# 정리 (선택사항)
+rm -rf node_modules package-lock.json
+```
+
+### Windows (PowerShell)
+
+```powershell
+# npm으로 geist 폰트 설치
+npm install geist
+
+# Geist Sans 폰트 파일 복사
+Copy-Item node_modules\geist\dist\fonts\geist-sans\Geist-Regular.ttf src\main\resources\fonts\
+Copy-Item node_modules\geist\dist\fonts\geist-sans\Geist-Bold.ttf src\main\resources\fonts\
+Copy-Item node_modules\geist\dist\fonts\geist-sans\Geist-Medium.ttf src\main\resources\fonts\
+Copy-Item node_modules\geist\dist\fonts\geist-sans\Geist-Light.ttf src\main\resources\fonts\
+
+# Geist Mono 폰트 파일 복사
+Copy-Item node_modules\geist\dist\fonts\geist-mono\GeistMono-Regular.ttf src\main\resources\fonts\
+Copy-Item node_modules\geist\dist\fonts\geist-mono\GeistMono-Bold.ttf src\main\resources\fonts\
+Copy-Item node_modules\geist\dist\fonts\geist-mono\GeistMono-Medium.ttf src\main\resources\fonts\
+Copy-Item node_modules\geist\dist\fonts\geist-mono\GeistMono-Light.ttf src\main\resources\fonts\
+
+# 정리 (선택사항)
+Remove-Item -Recurse -Force node_modules, package-lock.json
+```
+
+**자동 설치 스크립트:**
+
+-   macOS/Linux: `./install-fonts.sh`
+-   Windows: `.\install-fonts.ps1`
+
+**상세 가이드:**
+
+-   폰트 설치: [FONT_SETUP.md](FONT_SETUP.md)
+-   폰트 사용법: [FONT_USAGE.md](FONT_USAGE.md)
 
 ## 실행 방법
 
