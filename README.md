@@ -52,40 +52,6 @@ BitBot/
 
 ### macOS / Linux
 
-```bash
-# npm으로 geist 폰트 설치
-npm install geist
-
-# 폰트 파일 복사 (Geist Sans + Geist Mono)
-cp node_modules/geist/dist/fonts/geist-sans/Geist-*.ttf src/main/resources/fonts/
-cp node_modules/geist/dist/fonts/geist-mono/GeistMono-*.ttf src/main/resources/fonts/
-
-# 정리 (선택사항)
-rm -rf node_modules package-lock.json
-```
-
-### Windows (PowerShell)
-
-```powershell
-# npm으로 geist 폰트 설치
-npm install geist
-
-# Geist Sans 폰트 파일 복사
-Copy-Item node_modules\geist\dist\fonts\geist-sans\Geist-Regular.ttf src\main\resources\fonts\
-Copy-Item node_modules\geist\dist\fonts\geist-sans\Geist-Bold.ttf src\main\resources\fonts\
-Copy-Item node_modules\geist\dist\fonts\geist-sans\Geist-Medium.ttf src\main\resources\fonts\
-Copy-Item node_modules\geist\dist\fonts\geist-sans\Geist-Light.ttf src\main\resources\fonts\
-
-# Geist Mono 폰트 파일 복사
-Copy-Item node_modules\geist\dist\fonts\geist-mono\GeistMono-Regular.ttf src\main\resources\fonts\
-Copy-Item node_modules\geist\dist\fonts\geist-mono\GeistMono-Bold.ttf src\main\resources\fonts\
-Copy-Item node_modules\geist\dist\fonts\geist-mono\GeistMono-Medium.ttf src\main\resources\fonts\
-Copy-Item node_modules\geist\dist\fonts\geist-mono\GeistMono-Light.ttf src\main\resources\fonts\
-
-# 정리 (선택사항)
-Remove-Item -Recurse -Force node_modules, package-lock.json
-```
-
 **자동 설치 스크립트:**
 
 -   macOS/Linux: `./install-fonts.sh`

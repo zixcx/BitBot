@@ -36,6 +36,10 @@ public class App extends Application {
      * 애플리케이션 진입점
      */
     public static void main(String[] args) {
+        // Windows 폰트 렌더링 개선
+        System.setProperty("prism.lcdtext", "true");
+        System.setProperty("prism.text", "t2k");
+        System.setProperty("prism.allowhidpi", "true");
         launch(args);
     }
 }

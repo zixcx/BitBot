@@ -42,7 +42,8 @@
 
 /* 전역 폰트 적용 - 기본은 Geist Mono */
 .root {
-  -fx-font-family: "Geist Mono", monospace;
+  -fx-font-family: "Geist", monospace;
+  -fx-font-smoothing-type: lcd;
 }
 
 /* 모든 텍스트 요소에 폰트 적용 */
@@ -59,7 +60,7 @@
 .menu,
 .menu-item,
 .menu-bar {
-  -fx-font-family: "Geist Mono", monospace;
+  -fx-font-family: "Geist", monospace;
 }
 
 /* Geist Sans를 사용하려면 아래 클래스 추가 */
