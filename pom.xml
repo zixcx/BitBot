@@ -61,7 +61,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.9</version>
                 <configuration>
-                    <mainClass>com.bitbot.App</mainClass>
+                    <mainClass>com.bitbot.App  </mainClass>
                 </configuration>
             </plugin>
         </plugins>
