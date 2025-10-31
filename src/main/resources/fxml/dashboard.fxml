@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<VBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.bitbot.controller.DashboardController" spacing="20">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <!-- 헤더 -->
+    <HBox spacing="20" alignment="CENTER_LEFT">
+        <Label text="대시보드" styleClass="title-label">
+            <font>
+                <Font size="28" name="Geist Mono Bold"/>
+            </font>
+        </Label>
+        <Region HBox.hgrow="ALWAYS"/>
+        <Button text="← 뒤로" onAction="#handleBackButton" styleClass="back-button"/>
+    </HBox>
+
+    <!-- 계좌 정보 카드 -->
+    <GridPane hgap="20" vgap="20" styleClass="dashboard-grid">
+        <columnConstraints>
+            <ColumnConstraints hgrow="ALWAYS" minWidth="200"/>
+            <ColumnConstraints hgrow="ALWAYS" minWidth="200"/>
+        </columnConstraints>
+        
+        <!-- 총 자산 -->
+        <VBox styleClass="info-card" GridPane.columnIndex="0" GridPane.rowIndex="0">
+            <Label text="총 자산" styleClass="card-label"/>
+            <Label fx:id="totalBalanceLabel" text="$0.00" styleClass="card-value"/>
+        </VBox>
+        
+        <!-- 손익 -->
+        <VBox styleClass="info-card" GridPane.columnIndex="1" GridPane.rowIndex="0">
+            <Label text="손익" styleClass="card-label"/>
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label fx:id="profitLossLabel" text="$0.00" styleClass="card-value profit"/>
+                <Label fx:id="profitLossPercentLabel" text="0.0%" styleClass="card-percent profit"/>
+            </HBox>
+        </VBox>
+        
+        <!-- 활성 거래 -->
+        <VBox styleClass="info-card" GridPane.columnIndex="0" GridPane.rowIndex="1">
+            <Label text="활성 거래" styleClass="card-label"/>
+            <Label fx:id="activeTradesLabel" text="0" styleClass="card-value"/>
+        </VBox>
+        
+        <!-- 총 거래 수 -->
+        <VBox styleClass="info-card" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Label text="총 거래 수" styleClass="card-label"/>
+            <Label fx:id="totalTradesLabel" text="0" styleClass="card-value"/>
+        </VBox>
+        
+        <!-- 승률 -->
+        <VBox styleClass="info-card" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.rowIndex="2">
+            <Label text="승률" styleClass="card-label"/>
+            <Label fx:id="winRateLabel" text="0%" styleClass="card-value"/>
+        </VBox>
+    </GridPane>
+
+    <!-- 버튼 영역 -->
+    <HBox spacing="15" alignment="CENTER">
+        <Button fx:id="tradingHistoryButton" text="거래 내역" 
+                onAction="#handleTradingHistoryButton" 
+                prefWidth="150" prefHeight="40" styleClass="primary-button"/>
+        <Button fx:id="settingsButton" text="설정" 
+                onAction="#handleSettingsButton" 
+                prefWidth="150" prefHeight="40" styleClass="primary-button"/>
+    </HBox>
+</VBox>
+

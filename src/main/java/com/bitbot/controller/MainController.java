@@ -43,16 +43,16 @@ public class MainController {
         Scene currentScene = ((Node) event.getSource()).getScene();
         Stage window = (Stage) currentScene.getWindow();
 
-        // 두 번째 화면(second.fxml) 로드
-        Parent secondView = FXMLLoader.load(getClass().getResource("/fxml/second.fxml"));
+        // 대시보드 화면 로드
+        Parent dashboardView = FXMLLoader.load(getClass().getResource("/fxml/dashboard.fxml"));
         // 현재 창 크기와 동일한 Scene 생성
-        Scene secondScene = new Scene(secondView, currentScene.getWidth(), currentScene.getHeight());
+        Scene dashboardScene = new Scene(dashboardView, currentScene.getWidth(), currentScene.getHeight());
 
-        // 두 번째 화면의 CSS 적용
+        // 대시보드 화면의 CSS 적용
         String css = getClass().getResource("/css/styles.css").toExternalForm();
-        secondScene.getStylesheets().add(css);
+        dashboardScene.getStylesheets().add(css);
 
-        window.setScene(secondScene);
+        window.setScene(dashboardScene);
         window.show();
     }
 }

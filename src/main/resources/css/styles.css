@@ -96,3 +96,102 @@
 .button:pressed {
   -fx-background-color: #1e40af;
 }
+
+/* 대시보드 스타일 */
+.dashboard-grid {
+  -fx-padding: 20;
+}
+
+.info-card {
+  -fx-background-color: #f8fafc;
+  -fx-background-radius: 12;
+  -fx-padding: 20;
+  -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0, 0, 2);
+}
+
+.card-label {
+  -fx-font-size: 14px;
+  -fx-text-fill: #64748b;
+  -fx-font-family: "Geist", monospace;
+}
+
+.card-value {
+  -fx-font-size: 24px;
+  -fx-font-weight: bold;
+  -fx-text-fill: #1e293b;
+  -fx-font-family: "Geist Mono Bold", monospace;
+}
+
+.card-percent {
+  -fx-font-size: 18px;
+  -fx-font-weight: bold;
+  -fx-font-family: "Geist Mono Medium", monospace;
+}
+
+.profit {
+  -fx-text-fill: #10b981;
+}
+
+.loss {
+  -fx-text-fill: #ef4444;
+}
+
+.title-label {
+  -fx-text-fill: #1e293b;
+  -fx-font-family: "Geist Mono Bold", monospace;
+}
+
+.back-button {
+  -fx-background-color: #64748b;
+  -fx-text-fill: white;
+  -fx-background-radius: 8;
+  -fx-cursor: hand;
+  -fx-pref-width: 100;
+}
+
+.back-button:hover {
+  -fx-background-color: #475569;
+}
+
+.primary-button {
+  -fx-background-color: #2563eb;
+  -fx-text-fill: white;
+  -fx-background-radius: 8;
+  -fx-cursor: hand;
+}
+
+.primary-button:hover {
+  -fx-background-color: #1d4ed8;
+}
+
+/* 거래 내역 테이블 스타일 */
+.trading-table {
+  -fx-background-color: white;
+}
+
+.trading-table .table-column {
+  -fx-alignment: CENTER-LEFT;
+  -fx-font-family: "Geist Mono", monospace;
+}
+
+/* 설정 폼 스타일 */
+.settings-form {
+  -fx-max-width: 500;
+}
+
+.section-label {
+  -fx-text-fill: #1e293b;
+  -fx-padding: 10 0 5 0;
+}
+
+.status-label {
+  -fx-font-size: 14px;
+  -fx-font-family: "Geist Mono", monospace;
+}
+
+.text-field,
+.password-field {
+  -fx-font-family: "Geist Mono", monospace;
+  -fx-background-radius: 6;
+  -fx-border-radius: 6;
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<VBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.bitbot.controller.SettingsController" spacing="20">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <!-- 헤더 -->
+    <HBox spacing="20" alignment="CENTER_LEFT">
+        <Label text="설정" styleClass="title-label">
+            <font>
+                <Font size="28" name="Geist Mono Bold"/>
+            </font>
+        </Label>
+        <Region HBox.hgrow="ALWAYS"/>
+        <Button fx:id="backButton" text="← 뒤로" onAction="#handleBackButton" styleClass="back-button"/>
+    </HBox>
+
+    <!-- 설정 폼 -->
+    <VBox spacing="15" styleClass="settings-form">
+        <!-- API 설정 -->
+        <VBox spacing="8">
+            <Label text="API 설정" styleClass="section-label">
+                <font>
+                    <Font size="16" name="Geist Mono Medium"/>
+                </font>
+            </Label>
+            
+            <Label text="API Key:"/>
+            <TextField fx:id="apiKeyField" promptText="API 키를 입력하세요" prefHeight="35"/>
+            
+            <Label text="Secret Key:"/>
+            <PasswordField fx:id="secretKeyField" promptText="Secret 키를 입력하세요" prefHeight="35"/>
+        </VBox>
+
+        <!-- 거래 설정 -->
+        <VBox spacing="8">
+            <Label text="거래 설정" styleClass="section-label">
+                <font>
+                    <Font size="16" name="Geist Mono Medium"/>
+                </font>
+            </Label>
+            
+            <Label text="최대 투자 비율 (%):"/>
+            <TextField fx:id="maxInvestmentPercentField" promptText="예: 10" prefHeight="35"/>
+            
+            <Label text="손절 비율 (%):"/>
+            <TextField fx:id="stopLossPercentField" promptText="예: -10" prefHeight="35"/>
+        </VBox>
+
+        <!-- 상태 메시지 -->
+        <Label fx:id="statusLabel" text="" styleClass="status-label"/>
+
+        <!-- 버튼 -->
+        <HBox spacing="15">
+            <Button fx:id="saveButton" text="저장" onAction="#handleSaveButton" 
+                    prefWidth="120" prefHeight="40" styleClass="primary-button"/>
+        </HBox>
+    </VBox>
+</VBox>
+
