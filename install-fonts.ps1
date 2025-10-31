@@ -185,5 +185,5 @@ Write-Host ""
 Write-Host "설치된 폰트 파일:" -ForegroundColor Cyan
 Get-ChildItem $fontsDir | Where-Object { $_.Name -like "Geist*" } | Format-Table Name, Length -AutoSize
 Write-Host ""
-Write-Host "이제 'mvn javafx:run' 명령어로 애플리케이션을 실행할 수 있습니다." -ForegroundColor White
+Write-Host "이제 'mvn javafx:run' 명령어로 애플리케이션을 실행할 수 있습니다." -ForegroundColor Pink
 
