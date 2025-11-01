@@ -85,6 +85,424 @@ label.getStyleClass().add("geist-sans-light");
 -   `"Geist Mono Medium"` - Medium (500)
 -   `"Geist Mono Bold"` - Bold (700)
 
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
+## 사용 가능한 폰트 목록
+
+### Geist Sans (일반 Sans-serif 폰트)
+
+-   `"Geist"` - Regular (400)
+-   `"Geist Light"` - Light (300)
+-   `"Geist Medium"` - Medium (500)
+-   `"Geist Bold"` - Bold (700)
+
+### Geist Mono (Monospace 폰트)
+
+-   `"Geist Mono"` - Regular (400)
+-   `"Geist Mono Light"` - Light (300)
+-   `"Geist Mono Medium"` - Medium (500)
+-   `"Geist Mono Bold"` - Bold (700)
+
 ## 사용 예제
 
 ### 타이틀과 본문에 다른 폰트 적용
