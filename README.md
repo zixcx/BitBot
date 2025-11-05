@@ -42766,5 +42766,9 @@ Copyright © 2025
 ## 새로운 화면 추가
 
 1. `src/main/resources/fxml/` 디렉토리에 FXML 파일 생성
+<<<<<<< HEAD
 2. `src/main/java/com/bitbot/controller/` 디렉토리에 컨트롤러 클래스 생성
 >>>>>>> 5c74684 (11월04일 커밋2)
+=======
+2. `src/main/java/com/bitbot/controller/` 디렉토리에 
+>>>>>>> 24b21e1 (11월05일 커밋2)
