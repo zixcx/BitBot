@@ -13,16 +13,13 @@
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
 
-    <Label text="Second Screen">
-        <font>
-            <Font size="32.0"/>
-        </font>
+    <Label fx:id="userInfoLabel" text="사용자 정보 불러오는 중...">
+        <font><Font size="18.0"/></font>
     </Label>
 
-    <Button text="Back" onAction="#handleBackButton"
+    <!-- ✅ 로그아웃 버튼 -->
+    <Button text="로그아웃" onAction="#handleLogout"
             prefWidth="150.0" prefHeight="40.0">
-        <font>
-            <Font size="14.0"/>
-        </font>
+        <font><Font size="14.0"/></font>
     </Button>
 </VBox>

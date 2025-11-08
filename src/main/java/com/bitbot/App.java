@@ -5,26 +5,36 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import com.bitbot.service.AuthStorage;
+import com.bitbot.service.SupabaseService;
 
-/**
- * JavaFX 메인 애플리케이션 클래스
- */
 public class App extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        // FXML 파일 로드
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/main.fxml"));
-        Parent root = loader.load();
+        Parent root;
 
-        // Scene 생성
+        // ✅ 저장된 로그인 세션 확인
+        String savedToken = AuthStorage.getAccessToken();
+        String savedEmail = AuthStorage.getEmail();
+
+        if (savedToken != null && savedEmail != null) {
+            // ✅ refresh_token으로 세션 갱신 시도
+            boolean refreshed = SupabaseService.refreshSession();
+            if (refreshed) {
+                root = FXMLLoader.load(getClass().getResource("/fxml/second.fxml"));
+            } else {
+                AuthStorage.clear();
+                root = FXMLLoader.load(getClass().getResource("/fxml/main.fxml"));
+            }
+        } else {
+            root = FXMLLoader.load(getClass().getResource("/fxml/main.fxml"));
+        }
+
         Scene scene = new Scene(root, 800, 600);
-
-        // 전역 CSS 스타일시트 적용
         String css = getClass().getResource("/css/styles.css").toExternalForm();
         scene.getStylesheets().add(css);
 
-        // Stage 설정
         primaryStage.setTitle("BitBot");
         primaryStage.setScene(scene);
         primaryStage.setMinWidth(600);
@@ -32,15 +42,10 @@ public class App extends Application {
         primaryStage.show();
     }
 
-    /**
-     * 애플리케이션 진입점
-     */
     public static void main(String[] args) {
-        // Windows 폰트 렌더링 개선
         System.setProperty("prism.lcdtext", "true");
         System.setProperty("prism.text", "t2k");
         System.setProperty("prism.allowhidpi", "true");
         launch(args);
     }
 }
-

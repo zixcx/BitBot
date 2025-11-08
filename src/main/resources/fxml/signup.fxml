@@ -7,20 +7,21 @@
 
 <VBox alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx/21"
       xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="com.bitbot.controller.MainController">
+      fx:controller="com.bitbot.controller.SignUpController">
     <padding>
         <Insets top="30" bottom="30" left="30" right="30"/>
     </padding>
 
-    <Label text="🔐 BitBot Login">
+    <Label text="📝 BitBot Sign Up">
         <font><Font size="24"/></font>
     </Label>
 
+    <TextField fx:id="usernameField" promptText="이름"/>
     <TextField fx:id="emailField" promptText="이메일"/>
     <PasswordField fx:id="passwordField" promptText="비밀번호"/>
 
-    <Button text="로그인" onAction="#handleLogin" prefWidth="200"/>
-    <Button text="회원가입" onAction="#goToSignUp" prefWidth="200"/>
+    <Button text="회원가입" onAction="#handleSignUp" prefWidth="200"/>
+    <Button text="← 로그인으로 돌아가기" onAction="#goToLogin" prefWidth="200"/>
 
     <Label fx:id="statusLabel" textFill="red" wrapText="true"/>
 </VBox>
