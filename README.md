@@ -14070,5 +14070,195 @@ Copyright © 2025
 1. `src/main/resources/fxml/` 디렉토리에 FXML 파일 생성
 2. `src/main/java/com/bitbot/controller/` 디렉토리에 컨트롤러 클래스 생성
 3. FXML 파일과 컨트롤러 연결
+<<<<<<< HEAD
 3. FXML 파일과 컨트롤러 연결
 >>>>>>> 15eb361 (11월24일 커밋2)
+=======
+3. FXML 파일과 컨트롤러 연결-   [Maven Documentation](https://maven.apache.org/)
+## 새로운 화면 추가
+
+1. `src/main/resources/fxml/` 디렉토리에 FXML 파일 생성
+2. `src/main/java/com/bitbot/controller/` 디렉토리에 컨트롤러 클래스 생성
+3. FXML 파일과 컨트롤러 연결
+`pom.xml` 파일의 `<dependencies>` 섹션에 필요한 라이브러리 추가
+
+## 빌드 및 배포
+
+```bash
+# JAR 파일 생성
+mvn clean package
+
+# 생성된 JAR 파일 위치
+# target/bitbot-1.0.0.jar
+```
+
+## 라이선스
+
+Copyright © 2025
+
+## 참고 자료
+
+-   [JavaFX Documentation](https://openjfx.io/)
+-   [Maven Documentation](https://maven.apache.org/)
+## 새로운 화면 추가
+
+1. `src/main/resources/fxml/` 디렉토리에 FXML 파일 생성
+2. `src/main/java/com/bitbot/controller/` 디렉토리에 컨트롤러 클래스 생성
+3. FXML 파일과 컨트롤러 연결
+3. FXML 파일과 컨트롤러 연결-   [Maven Documentation](https://maven.apache.org/)
+## 새로운 화면 추가
+
+1. `src/main/resources/fxml/` 디렉토리에 FXML 파일 생성
+2. `src/main/java/com/bitbot/controller/` 디렉토리에 컨트롤러 클래스 생성
+3. FXML 파일과 컨트롤러 연결
+`pom.xml` 파일의 `<dependencies>` 섹션에 필요한 라이브러리 추가
+
+## 빌드 및 배포
+
+```bash
+# JAR 파일 생성
+mvn clean package
+
+# 생성된 JAR 파일 위치
+# target/bitbot-1.0.0.jar
+```
+
+## 라이선스
+
+Copyright © 2025
+
+## 참고 자료
+
+-   [JavaFX Documentation](https://openjfx.io/)
+-   [Maven Documentation](https://maven.apache.org/)
+## 새로운 화면 추가
+
+1. `src/main/resources/fxml/` 디렉토리에 FXML 파일 생성
+2. `src/main/java/com/bitbot/controller/` 디렉토리에 컨트롤러 클래스 생성
+3. FXML 파일과 컨트롤러 연결
+3. FXML 파일과 컨트롤러 연결-   [Maven Documentation](https://maven.apache.org/)
+## 새로운 화면 추가
+
+1. `src/main/resources/fxml/` 디렉토리에 FXML 파일 생성
+2. `src/main/java/com/bitbot/controller/` 디렉토리에 컨트롤러 클래스 생성
+3. FXML 파일과 컨트롤러 연결
+`pom.xml` 파일의 `<dependencies>` 섹션에 필요한 라이브러리 추가
+
+## 빌드 및 배포
+
+```bash
+# JAR 파일 생성
+mvn clean package
+
+# 생성된 JAR 파일 위치
+# target/bitbot-1.0.0.jar
+```
+
+## 라이선스
+
+Copyright © 2025
+
+## 참고 자료
+
+-   [JavaFX Documentation](https://openjfx.io/)
+-   [Maven Documentation](https://maven.apache.org/)
+## 새로운 화면 추가
+
+1. `src/main/resources/fxml/` 디렉토리에 FXML 파일 생성
+2. `src/main/java/com/bitbot/controller/` 디렉토리에 컨트롤러 클래스 생성
+3. FXML 파일과 컨트롤러 연결
+3. FXML 파일과 컨트롤러 연결-   [Maven Documentation](https://maven.apache.org/)
+## 새로운 화면 추가
+
+1. `src/main/resources/fxml/` 디렉토리에 FXML 파일 생성
+2. `src/main/java/com/bitbot/controller/` 디렉토리에 컨트롤러 클래스 생성
+3. FXML 파일과 컨트롤러 연결
+`pom.xml` 파일의 `<dependencies>` 섹션에 필요한 라이브러리 추가
+
+## 빌드 및 배포
+
+```bash
+# JAR 파일 생성
+mvn clean package
+
+# 생성된 JAR 파일 위치
+# target/bitbot-1.0.0.jar
+```
+
+## 라이선스
+
+Copyright © 2025
+
+## 참고 자료
+
+-   [JavaFX Documentation](https://openjfx.io/)
+-   [Maven Documentation](https://maven.apache.org/)
+## 새로운 화면 추가
+
+1. `src/main/resources/fxml/` 디렉토리에 FXML 파일 생성
+2. `src/main/java/com/bitbot/controller/` 디렉토리에 컨트롤러 클래스 생성
+3. FXML 파일과 컨트롤러 연결
+3. FXML 파일과 컨트롤러 연결-   [Maven Documentation](https://maven.apache.org/)
+## 새로운 화면 추가
+
+1. `src/main/resources/fxml/` 디렉토리에 FXML 파일 생성
+2. `src/main/java/com/bitbot/controller/` 디렉토리에 컨트롤러 클래스 생성
+3. FXML 파일과 컨트롤러 연결
+`pom.xml` 파일의 `<dependencies>` 섹션에 필요한 라이브러리 추가
+
+## 빌드 및 배포
+
+```bash
+# JAR 파일 생성
+mvn clean package
+
+# 생성된 JAR 파일 위치
+# target/bitbot-1.0.0.jar
+```
+
+## 라이선스
+
+Copyright © 2025
+
+## 참고 자료
+
+-   [JavaFX Documentation](https://openjfx.io/)
+-   [Maven Documentation](https://maven.apache.org/)
+## 새로운 화면 추가
+
+1. `src/main/resources/fxml/` 디렉토리에 FXML 파일 생성
+2. `src/main/java/com/bitbot/controller/` 디렉토리에 컨트롤러 클래스 생성
+3. FXML 파일과 컨트롤러 연결
+3. FXML 파일과 컨트롤러 연결-   [Maven Documentation](https://maven.apache.org/)
+## 새로운 화면 추가
+
+1. `src/main/resources/fxml/` 디렉토리에 FXML 파일 생성
+2. `src/main/java/com/bitbot/controller/` 디렉토리에 컨트롤러 클래스 생성
+3. FXML 파일과 컨트롤러 연결
+`pom.xml` 파일의 `<dependencies>` 섹션에 필요한 라이브러리 추가
+
+## 빌드 및 배포
+
+```bash
+# JAR 파일 생성
+mvn clean package
+
+# 생성된 JAR 파일 위치
+# target/bitbot-1.0.0.jar
+```
+
+## 라이선스
+
+Copyright © 2025
+
+## 참고 자료
+
+-   [JavaFX Documentation](https://openjfx.io/)
+-   [Maven Documentation](https://maven.apache.org/)
+## 새로운 화면 추가
+
+1. `src/main/resources/fxml/` 디렉토리에 FXML 파일 생성
+2. `src/main/java/com/bitbot/controller/` 디렉토리에 컨트롤러 클래스 생성
+3. FXML 파일과 컨트롤러 연결
+3. FXML 파일과 컨트롤러 연결
+>>>>>>> 4d28289 (11월25일 커밋2)
