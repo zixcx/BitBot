@@ -223,7 +223,6 @@ refreshenv
 ```
 ```powershell
 #주석처리
-#wntjr
 refreshenv
 ```
 ### JAVA_HOME 오류
