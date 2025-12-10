@@ -221,7 +221,10 @@ mvn test
 # 또는
 refreshenv
 ```
-
+```powershell
+#주석처리
+refreshenv
+```
 ### JAVA_HOME 오류
 **해결책**:
 ```powershell
