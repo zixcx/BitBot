@@ -1,0 +1,83 @@
+# ===================================
+# Java & Maven
+# ===================================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# ===================================
+# IDE
+# ===================================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# NetBeans
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+
+# ===================================
+# 환경 변수 & 보안 (매우 중요!)
+# ===================================
+.env
+.env.local
+.env.*.local
+*.bak
+api_keys.txt
+secrets/
+
+# ===================================
+# OS
+# ===================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ===================================
+# Application Specific
+# ===================================
+logs/
+*.log.*
+/data/
+/models/*.onnx
+/cache/
+*.db
+*.sqlite
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Trading data backups
+/backups/
+/exports/
